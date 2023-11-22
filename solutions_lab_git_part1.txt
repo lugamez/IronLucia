@@ -1,0 +1,25 @@
+1. First of all, install git if you don't have it yet, and create a GitHub account. ( You can refer to the lesson "Install Git and Create GitHub Account" in the prework. Follow the guidelines given there. Additionally, you can use these resources: Install git, Version control with git)
+
+This was done in class :)
+
+2. Create a new repository in the GitHub. Name it Iron+ your name. Example: if your name is Alvaro, you will name the repo IronAlvaro
+
+This was done directly on Github. My repository is IronLucia
+
+3. Clone that repo to your computer
+
+(base) lucia@Lucias-MacBook-Air Afternoon % git clone https://github.com/lugamez/IronLucia.git
+Cloning into 'IronLucia'...
+warning: You appear to have cloned an empty repository.
+
+4. Create a file in that folder. Name it about.txt and add a fun fact about yourself. (You can use the command line: touch nameOfTheFile.txt)
+
+(base) lucia@Lucias-MacBook-Air IronLucia % touch about.txt; echo "I don't know if it's a fun fact but my Air fryer is my newest obsession" > about.txt
+
+5. Add the file you just created to the git
+
+(base) lucia@Lucias-MacBook-Air IronLucia % git add solutions_lab_git_part1; git add about.txt
+
+6. Commit the changes
+
+
